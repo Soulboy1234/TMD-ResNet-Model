@@ -1,0 +1,17 @@
+# I/O parameters
+Data:
+  filePath: 'E:/热层密度机器学习建模/Data/hdf5Data/'
+  fileName: 'Mehta_CHAMP_Input.hdf5'
+  indexFileName: 'Mehta_CHAMP_dataSetIndex.hdf5'
+
+Train:
+  learningRateList: [0.000001, 0.00001, 0.0001, 0.00001, 0.000001]
+  lossFunction: 'mse'
+  batchSize: 4096
+  stepsPerEpoch: 5237
+  epochPerLearningRate: 40
+  weightSavePath: '../Data/Check_Point/'
+  modelSavePath: '../Data/Model/'
+
+Test:
+  batchSize: 4096
