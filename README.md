@@ -1,6 +1,6 @@
 # TMD-ResNet-Model
-A nowcast deep learning model trained by CHAMP.
-The purpose of constructing this model is to effectively extract the features of Thermospheric mass density (TMD) from CHAMP observation, and further promote the thermosphere-ionosphere coupling research.
+A thermospheric mass density nowcast deep learning model trained by CHAMP.
+The purpose of constructing this model is to effectively extract the features of Thermospheric Mass Density (TMD) from CHAMP observation, and further promote the thermosphere-ionosphere coupling research.
 
 # Data
 The training data were obtained from：
